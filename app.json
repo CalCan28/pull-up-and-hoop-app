@@ -1,0 +1,66 @@
+{
+  "expo": {
+    "name": "Pull Up & Hoop",
+    "slug": "pull-up-and-hoop-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "pullupandhoop",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0D0D0D"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pullupandhoop.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Pull Up & Hoop needs your location to find courts near you.",
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyATXWA1TZg-9VbY6bE_ZCarOBaNcUOK-SQ"
+      },
+      "privacyManifests": {
+        "NSPrivacyAccessedAPITypes": []
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0D0D0D",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "com.pullupandhoop.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyATXWA1TZg-9VbY6bE_ZCarOBaNcUOK-SQ"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    },
+    "owner": "calcan28",
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Pull Up & Hoop needs your location to find courts near you."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
