@@ -38,7 +38,11 @@
         "googleMaps": {
           "apiKey": "AIzaSyATXWA1TZg-9VbY6bE_ZCarOBaNcUOK-SQ"
         }
-      }
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png",
@@ -46,8 +50,9 @@
     },
     "extra": {
       "eas": {
-        "projectId": ""
-      }
+        "projectId": "303495ee-0c2e-42d0-8957-41a80f8caa69"
+      },
+      "router": {}
     },
     "owner": "calcan28",
     "plugins": [

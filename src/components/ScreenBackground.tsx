@@ -5,12 +5,12 @@ import { Colors } from '../constants/theme';
 const { width, height } = Dimensions.get('window');
 
 const backgroundImages = [
-  require('../../assets/backgrounds/Pull up in hoop one.png'),
-  require('../../assets/backgrounds/Pull up a hoop two.png'),
-  require('../../assets/backgrounds/Pull up the heat three.png'),
-  require('../../assets/backgrounds/Pull up and hoop for.png'),
-  require('../../assets/backgrounds/Pull up a hoop file.png'),
-  require('../../assets/backgrounds/Pull up the hoop six.png'),
+  require('../../assets/backgrounds/bg-1.png'),
+  require('../../assets/backgrounds/bg-2.png'),
+  require('../../assets/backgrounds/bg-3.png'),
+  require('../../assets/backgrounds/bg-4.png'),
+  require('../../assets/backgrounds/bg-5.png'),
+  require('../../assets/backgrounds/bg-6.png'),
 ];
 
 const logo = require('../../assets/backgrounds/logo.png');
